@@ -1,6 +1,39 @@
-*{
-    background-color: thistle;
+* {
     margin: 0;
     padding: 0;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 5rem;
+    gap: 2rem;
+    flex: 1;
+    background-color: darkslategray;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar a {
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    gap: 1.5rem;
+}
+
+.navbar-left img {
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+}
