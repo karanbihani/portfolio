@@ -17,6 +17,7 @@
     list-style: none;
     display: flex;
     gap: 1.5rem;
+    align-items: center;
 }
 
 .navbar a {
@@ -36,4 +37,64 @@
     border-radius: 50%;
     width: 50px;
     height: 40px;
+}
+
+.navbar ul li button {
+    background-color: darkslategray;
+    color: cornsilk;
+    border-radius: 50%;
+    border: none;
+}
+
+.navbar ul li img {
+    border-radius: 50%;
+}
+
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 7%;
+    justify-content: space-around;
+    padding: 7% 5%;
+    align-items: center;
+    text-align: center;
+    background-color: darkseagreen;
+}
+
+.main-left,
+.main-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-left {
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.main-right {
+    width: 50%;
+    min-width: 25%;
+    max-width: 55%;
+    /* border-radius: 10%; */
+}
+
+.main-right img {
+    border-radius: 200px;
+}
+
+.main-right img:hover {
+    /* box-shadow: 200px; */
+    /* box-sizing: 300px; */
+    border-radius: 400px;
+}
+
+.icons {
+    display: flex;
+    gap: 24px;
+    padding-top: 1.5rem;
+}
+
+.icons img {
+    width: 40px;
 }
